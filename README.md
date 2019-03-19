@@ -1,6 +1,6 @@
 ![solarbankes logo](https://solarbankers.com/wp-content/uploads/2017/10/cropped-Logo.png)
 
-#SolarBankers IPFS
+## SolarBankers IPFS
 
 SolarBankers IPFS is a next-generation distributed storage system.
 
