@@ -27,10 +27,10 @@ rm -rf go-ipfs_v0.4.19_linux-amd64.tar.gz
 cd go-ipfs
 sudo ./install.sh
 rm /usr/local/bin/ipfs
-chmod -R 777 ipfs
+chmod -R 777 solaripfs
 mv solaripfs /use/local/bin
-ipfs version
+solaripfs version
 export LIBP2P_FORCE_PNET=1 
-ipfs init
-ipfs bootstrap rm --all
-ipfs bootstrap add /ip4/45.33.27.17/tcp/4002/ipfs/Qme3NTDKrcr6hQPg5Loegr1EabvdCuDYrMy6tFzLBbS93D
+solaripfs init
+solaripfs bootstrap rm --all
+solaripfs bootstrap add /ip4/45.33.27.17/tcp/4002/ipfs/Qme3NTDKrcr6hQPg5Loegr1EabvdCuDYrMy6tFzLBbS93D
