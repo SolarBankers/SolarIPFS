@@ -26,7 +26,8 @@ tar xvfz go-ipfs_v0.4.19linux-amd64.tar.gz
 rm -rf go-ipfs_v0.4.19_linux-amd64.tar.gz
 cd go-ipfs
 sudo ./install.sh
-rm /usr/local/bin/ipfs
+rm -rf /usr/local/bin/ipfs
+cd ~
 chmod -R 777 solaripfs
 mv solaripfs /use/local/bin
 solaripfs version
