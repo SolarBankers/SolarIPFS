@@ -22,14 +22,14 @@ go version
 
 cd ~
 wget https://dist.ipfs.io/go-ipfs/v0.4.19/go-ipfs_v0.4.19_linux-amd64.tar.gz
-tar xvfz go-ipfs_v0.4.19linux-amd64.tar.gz
+tar xvfz go-ipfs_v0.4.19_linux-amd64.tar.gz
 rm -rf go-ipfs_v0.4.19_linux-amd64.tar.gz
 cd go-ipfs
 sudo ./install.sh
-rm -rf /usr/local/bin/ipfs
+sudo rm -rf /usr/local/bin/ipfs
 cd ~
 chmod -R 777 solaripfs
-mv solaripfs /use/local/bin
+mv solaripfs /usr/local/bin
 solaripfs version
 export LIBP2P_FORCE_PNET=1 
 solaripfs init
