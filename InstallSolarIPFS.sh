@@ -1,25 +1,3 @@
-sudo rm -rf /usr/local/go
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install -y curl git mercurial make binutils gcc bzr bison libgmp3-dev screen gcc build-essential
-cd ~
-export GOV=1.11.5 # golang version
-curl -sS https://storage.googleapis.com/golang/go$GOV.linux-amd64.tar.gz > go$GOV.linux-amd64.tar.gz
-tar xvf go$GOV.linux-amd64.tar.gz
-rm go$GOV.linux-amd64.tar.gz
-sudo mv go /usr/local/go
-sudo ln -s /usr/local/go/bin/go /usr/local/bin/go
-sudo ln -s /usr/local/go/bin/godoc /usr/local/bin/godoc
-sudo ln -s /usr/local/go/bin/gofmt /usr/local/bin/gofmt
-mkdir -p $HOME/go
-mkdir -p $HOME/go/bin
-mkdir -p $HOME/go/src
-mkdir -p $HOME/go/pkg
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOBIN
-go version
-
 cd ~
 wget https://dist.ipfs.io/go-ipfs/v0.4.19/go-ipfs_v0.4.19_linux-amd64.tar.gz
 tar xvfz go-ipfs_v0.4.19_linux-amd64.tar.gz
@@ -29,7 +7,7 @@ sudo ./install.sh
 sudo rm -rf /usr/local/bin/ipfs
 cd ~
 chmod -R 777 solaripfs
-mv solaripfs /usr/local/bin
+sudo mv solaripfs /usr/local/bin
 solaripfs version
 export LIBP2P_FORCE_PNET=1 
 solaripfs init
