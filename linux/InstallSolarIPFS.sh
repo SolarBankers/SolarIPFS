@@ -1,5 +1,6 @@
 chmod -R 777 solaripfs
 sudo mv solaripfs /usr/local/bin
+cd
 solaripfs version
 export LIBP2P_FORCE_PNET=1 
 solaripfs init
