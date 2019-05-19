@@ -17,6 +17,9 @@ SolarBankers is a small part of OP Redecentralize and OP Darknet Plan.
 
 ### Install Solar IPFS
 
+Instal  CURL refer below
+https://help.ubidots.com/how-to-with-ubidots/learn-how-to-install-run-curl-on-windowsmacosxlinux
+
 #### Run command on cmd
 ```sh
 init.bat
@@ -29,7 +32,7 @@ init.bat
 For Running solar IPFS , will require subscription key. once you got subscription key, please put this on .ipfs folder.
 
 ```sh
-solaripfs daemon
+startIPFS.bat
 ```
 
 

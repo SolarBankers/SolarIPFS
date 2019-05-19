@@ -28,7 +28,7 @@ SolarBankers is a small part of OP Redecentralize and OP Darknet Plan.
 For Running solar IPFS , will require subscription key. once you got subscription key, please put this on .ipfs folder.
 
 ```sh
-solaripfs daemon
+./startSolarIPFS.sh
 ```
 
 
