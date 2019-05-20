@@ -15,12 +15,6 @@ SolarBankers is a small part of OP Redecentralize and OP Darknet Plan.
 ## Installation
 
 
-Give permission to solaripfs Folder
-
-```sh
-chmod -R 777 solaripfs
-```
-
 ### Install Solar IPFS
 
 Install  CURL refer below
