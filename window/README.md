@@ -12,13 +12,19 @@ SolarBankers is a small part of OP Redecentralize and OP Darknet Plan.
 
 * [solarbankers.com](https://www.solarbankers.com)
 
-
 ## Installation
+
+
+Give permission to solaripfs Folder
+
+```sh
+chmod -R 777 solaripfs
+```
 
 ### Install Solar IPFS
 
-Instal  CURL refer below
-https://help.ubidots.com/how-to-with-ubidots/learn-how-to-install-run-curl-on-windowsmacosxlinux
+Install  CURL refer below
+http://www.confusedbycode.com/curl/#downloads
 
 #### Run command on cmd
 ```sh
