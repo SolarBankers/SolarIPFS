@@ -1,8 +1,4 @@
 @echo off
-
-set /p value2=<C:%HOMEPATH%\.ipfs\subscription.key
-curl https://solarbankersico.com/SolarNode_Service.svc/JSON/Configure/%value2%
-
 :loop
 timeout 10 > Nul
 if exist C:%HOMEPATH%\.ipfs\subscription.key (
